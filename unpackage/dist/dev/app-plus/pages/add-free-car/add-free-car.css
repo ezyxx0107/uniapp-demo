@@ -1,0 +1,23 @@
+
+.add-free-car {
+		/* padding: 15px; */
+}
+.uni-column {
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 6px;
+}
+.label {
+		margin: 0 15px;
+		color: #666;
+}
+.uni-input {
+		padding: 4px 15px;
+		background-color: #fff;
+		height: 30px;
+		line-height: 30px;
+}
+.create-btn {
+		margin: 20px 15px;
+		background-color: darkorange;
+		color: #fff;
+}

@@ -1,0 +1,54 @@
+
+.content {
+		padding: 15px;
+		position: relative;
+		margin-bottom: 20px;
+}
+.search {
+		position: fixed;
+		left: 15px;
+		right: 15px;
+		top: 0;
+		background-color: #fff;
+		border: 1px orange solid;
+		border-radius: 50px;
+		height: 36px;
+		line-height: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-left: 12px;
+		box-shadow: 0 2px 2px #dfdfdf;
+}
+.search-btn {
+		background-color: orange;
+		border-radius: 0 50px 50px 0;
+		color: #fff;
+		padding: 0 10px;
+}
+.list {
+		margin-top: 30px;
+}
+.item {
+		background-color: #fff;
+		border-radius: 10px;
+		margin: 10px 0;
+		padding: 15px;
+}
+.label {
+		color: #666;
+}
+.add-btn {
+		border-radius: 50%;
+		background-color: darkorange;
+		font-weight: bolder;
+		font-size: 30px;
+		position: fixed;
+		right: 10px;
+		bottom: 20px;
+		color: #fff;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+}

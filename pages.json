@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "免费车"
+			}
+		},
+		{
+			"path" : "pages/error-car/error-car",
+			"style" : 
+			{
+				"navigationBarTitleText" : "易错车辆"
+			}
+		},
+		{
+			"path" : "pages/add-free-car/add-free-car",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创建免费车"
+			}
+		}
+	],
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "#000",
+		"selectedColor": "#1296db",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "免费车",
+				"iconPath": "static/nav-car-icon.png",
+				"selectedIconPath": "static/nav-car-active-icon.png"
+			},
+			{
+				"pagePath": "pages/error-car/error-car",
+				"text": "易错车辆",
+				"iconPath": "static/nav-error-car-icon.png",
+				"selectedIconPath": "static/nav-error-car--active-icon.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
